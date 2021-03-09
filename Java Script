@@ -1,0 +1,121 @@
+biner:
+23 => 
+1  0 1 1 1
+16 8 4 2 1
+tipe data:
+number
+=> angka tanpa desimal => 10,1500,123456 => akurat smp 15 digit
+=> angka dengan desimal => 3.14,0.5,100.00
+=> eksponen => 123e5//12300000
+=> bilangan negatif
+=> angka spesial
+	=> infinity
+	=> -infinity
+	=> NaN
+string
+=> "";''
+=> escape karakter
+	=> \0 => null
+	=> \' => '
+	=> \" => "
+	=> \\ => \
+	=> \n => baris baru
+	=> \t => tab
+	=> \b => backspace
+	=> \uxxxx => unicode
+=> .lenght => panjang sebuah string
+boolean
+=> Boolean(nilai) 
+object
+=> 
+function
+	=> method
+	=> class
+	=> constructor
+	=> module
+undefined
+
+operator:
+=> binary => artimatika,penugasan,perbandingan,logika,string => membutuhkan 2 operand
+=> ternary => kondisional => membutuhkan 3 operand
+=> unary => typeof => membutuhkan 1 operand
+	=> aritmatika(+,-,*,/,%)
+		KuKaBaTaKu{(),*,/,+,-}
+	=> penugasan(=,+=,-=,*=,/=,%=)
+		=> x+=y(x=x+y),x-=y(x=x-y),x*=y(x=x*y),x/=y(x=x/y),x%=y(x=x%y)
+	=> perbandingan
+		=> ==(sama dengan)
+		=> !=(tidak sama dengan)
+		=> ===(strict sama dengan)
+		=> !==(strict tidak sama dengan)
+		=> >(lebih besar dari)
+		=> <(lebih kecild dari)
+		=> >=(lebih besar sama dengan)
+		=> <=(lebih kecil sama dengan)
+	=> logika
+		=> &&(and)
+		=> ||(or)
+		=> !(not)
+	=> string
+		=> +
+	=> kondisional
+		=> (kondisi)?benar:salah
+	=> typeof
+		=> typeof(operand)
+
+variabel
+=> var
+	=> var (nama variabel);
+	=> var nama1'
+			nama2,
+			nama3;
+=> let
+=> const
+
+popbox
+=> alert
+=> prompt
+=> confoirm
+
+pengulangan
+=> for
+	=> for(nilai awal;kondisi terminasi;increment/decrement){
+		aksi
+		}
+=> while
+	=> while(kondisi){aksi};
+	=> nilai awal
+		while(kondisi terminasi){
+		aksi
+		increment/decrement
+		}
+=> do while
+
+pengkondisian
+=> if
+	=> if(kondisi){aksi}
+=> if..else
+=> if..else if..else
+=> switch
+	=> switch(ekspresi){
+			case "nilai 1":
+			aksi 1
+			[break;]
+			case "nilai 2":
+			aksi 2
+			[break;]
+			case "nilai n":
+			aksi n
+			[break;]
+			default:
+			aksi default
+			[break;]
+		}
+array
+=> lenght
+=> join
+=> push, pop, shift, unshift
+=> slice, spilce
+=> foreach, map
+=> sort
+=> filter find
